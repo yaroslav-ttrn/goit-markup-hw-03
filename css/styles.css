@@ -339,8 +339,7 @@ h6 {
 /* ----------------------FOOTER----------------------- */
 .footer {
   background-color: #2e2f42;
-  padding-top: 99px;
-  padding-bottom: 101px;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -351,6 +350,8 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-description {
@@ -359,7 +360,6 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
   width: 264px;
   height: 112px;
 }
