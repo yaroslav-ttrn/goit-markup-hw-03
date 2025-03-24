@@ -287,11 +287,11 @@ h6 {
 
 /* -----------------------OUR PORTFOLIO--------------- */
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 121px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -304,13 +304,14 @@ h6 {
 }
 
 .portfolio-item {
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  padding: 0 0 32px 0;
-  width: 100%;
-  height: auto;
   width: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-wrap {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .portfolio-subtitle {
