@@ -154,6 +154,8 @@ h6 {
 /* -----------------HERO---------------- */
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -197,7 +199,6 @@ h6 {
 }
 
 .hero-wrapper {
-  padding: 188px 0;
 }
 /* -----------------HERO---------------- */
 
