@@ -68,10 +68,9 @@ h6 {
 }
 
 /* --------------HEADER------------------ */
-/* .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-} */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .header-navigation {
   display: flex;
