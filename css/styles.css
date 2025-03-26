@@ -259,9 +259,6 @@ h6 {
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 32px 16px;
-  width: 264px;
-  height: 380px;
   width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -281,7 +278,6 @@ h6 {
 
 .team-description {
   text-align: center;
-  margin-bottom: 32px;
 }
 
 /* --------------------TEAM---------------------- */
@@ -298,8 +294,6 @@ h6 {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  flex-shrink: 0;
-  margin-top: 72px;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -312,7 +306,6 @@ h6 {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-subtitle {
@@ -330,7 +323,6 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
 }
 
 /* -----------------------OUR PORTFOLIO--------------- */
@@ -359,8 +351,7 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  width: 264px;
-  height: 112px;
+  max-width: 264px;
 }
 
 .footer .studio {
